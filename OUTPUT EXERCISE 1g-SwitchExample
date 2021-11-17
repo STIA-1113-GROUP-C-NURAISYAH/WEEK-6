@@ -1,0 +1,15 @@
+//x is 10
+Enter the number of x: 10
+x is 10
+
+//x is 20
+Enter the number of x: 20
+x is 20
+
+//x is 30
+Enter the number of x: 30
+x is 30
+
+//x is not 10 or 20 or 30
+Enter the number of x: 56
+x is not 10 or 20 or 30
