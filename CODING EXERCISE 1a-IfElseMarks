@@ -1,0 +1,62 @@
+package exercise;
+import java.util.Scanner;
+public class marks {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc=new Scanner(System.in);
+		
+		int mark1;
+		int mark2;
+		String sub1="Math";
+		String sub2="Science";
+		double avg;
+		
+		System.out.print ("Enter sub 1: ");
+		sub1=sc.next();
+		System.out.print ("Enter sub 2: ");
+		sub2=sc.next();
+		System.out.print ("Enter mark " + sub1 + ": ");
+		mark1=sc.nextInt();
+		System.out.print ("Enter mark " + sub2 + ": ");
+		mark2=sc.nextInt();
+		
+		if ((mark1>=50) && (mark2>=50)) {
+			System.out.println("Both PASS");
+		}
+		else if ((mark1>=50) && (mark2<=50)) {
+			System.out.println(sub1 + " is PASS while " + sub2 + " is FAIL");
+		}
+		else if ((mark1<=50) && (mark2>=50)) {
+			System.out.println(sub1 + " is FAIL while " + sub2 + " is PASS");
+		}
+		else {
+			System.out.println ("Both FAIL");
+		}
+		if (mark1>mark2) {
+			System.out.println("Mark " + sub1 + " is higher than mark " + sub2);
+		}
+		else if (mark1<mark2) {
+			System.out.println("Mark " + sub2 + " is higher than mark " + sub1);
+		}
+		else
+			System.out.println ("Both have same marks");
+		
+		avg=(mark1 + mark2)/2;
+		System.out.println ("Average mark is " + avg);
+		
+		if (avg>=80)
+			System.out.println ("Your grade is A");
+		
+		else if ((avg>=60)&&(avg<=79))
+			System.out.println ("Your grade is B");
+		
+		else if ((avg>=50)&&(avg<=59))
+			System.out.println ("Your grade is C");
+		
+		else
+			System.out.println ("Fail");
+
+	}
+}
