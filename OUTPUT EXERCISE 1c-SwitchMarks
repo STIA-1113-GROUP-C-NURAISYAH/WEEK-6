@@ -1,0 +1,27 @@
+//grade A
+Enter mark: 92
+Excellent: Grade A
+
+//grade B
+Enter mark: 85
+Very Good: Grade B
+
+//grade C
+Enter mark: 76
+Good: Grade C
+
+//grade D
+Enter mark: 65
+Good: Grade D
+
+//grade E
+Enter mark: 59
+Good: Grade E
+
+//grade F
+Enter mark: 41
+Passed: Grade F
+
+//Failed
+Enter mark: 39
+Failed!
