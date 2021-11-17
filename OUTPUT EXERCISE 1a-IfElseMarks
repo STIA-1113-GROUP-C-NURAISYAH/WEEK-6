@@ -1,0 +1,8 @@
+Enter sub 1: Math
+Enter sub 2: Science
+Enter mark Math: 34
+Enter mark Science: 76
+Math is FAIL while Science is PASS
+Mark Science is higher than mark Math
+Average mark is 55.0
+Your grade is C
