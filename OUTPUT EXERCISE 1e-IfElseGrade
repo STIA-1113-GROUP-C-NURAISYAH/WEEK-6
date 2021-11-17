@@ -1,0 +1,27 @@
+//grade A
+Enter grade: A
+Marks >=90
+
+//grade B
+Enter grade: B
+Marks >=80 and less than 90
+
+//grade C
+Enter grade: C
+Marks >=70 and less than 80
+
+//grade D
+Enter grade: D
+Marks >=60 and less than 70
+
+//grade E
+Enter grade: E
+Marks >=50 and less than 60
+
+//grade F
+Enter grade: F
+Marks <=40
+
+//invalid grade
+Enter grade: G
+Invalid grade
